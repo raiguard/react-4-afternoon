@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 export default class ClassList extends Component {
   constructor() {
-    super()
-    
+    super();
   }
 
   render() {
@@ -11,8 +10,7 @@ export default class ClassList extends Component {
       <div className="box">
         <h1></h1>
         <h2>ClassList:</h2>
-
       </div>
-    )
+    );
   }
 }
